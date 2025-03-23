@@ -11,6 +11,20 @@ A React Native mobile application designed to enhance women's safety through rea
 - Emergency services integration
 - User-friendly interface
 
+## Screenshots
+
+[Add your app screenshots here. You can take screenshots of the following screens:]
+- Login/Register Screen
+- Home Screen with SOS Button
+- Emergency Contacts Screen
+- Location Sharing Screen
+- Emergency Recording Screen
+
+To add screenshots:
+1. Take screenshots of your app running on your device
+2. Save them in the `assets` folder
+3. Update this section with the image paths
+
 ## Tech Stack
 
 - React Native
