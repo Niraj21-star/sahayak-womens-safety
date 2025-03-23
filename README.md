@@ -13,17 +13,20 @@ A React Native mobile application designed to enhance women's safety through rea
 
 ## Screenshots
 
-[Add your app screenshots here. You can take screenshots of the following screens:]
-- Login/Register Screen
-- Home Screen with SOS Button
-- Emergency Contacts Screen
-- Location Sharing Screen
-- Emergency Recording Screen
+### Login/Register Screen
+![Login Screen](./assets/screenshots/login-screen.png)
 
-To add screenshots:
-1. Take screenshots of your app running on your device
-2. Save them in the `assets` folder
-3. Update this section with the image paths
+### Home Screen with SOS Button
+![Home Screen](./assets/screenshots/home-screen.png)
+
+### Emergency Contacts Screen
+![Emergency Contacts](./assets/screenshots/emergency-contacts.png)
+
+### Location Sharing Screen
+![Location Sharing](./assets/screenshots/location-sharing.png)
+
+### Emergency Recording Screen
+![Emergency Recording](./assets/screenshots/emergency-recording.png)
 
 ## Tech Stack
 
