@@ -1,0 +1,80 @@
+{
+  "expo": {
+    "name": "Sahayak",
+    "slug": "sahayak",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.sahayak.app",
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "Allow Sahayak to access your photos to save emergency recordings.",
+        "NSPhotoLibraryAddUsageDescription": "Allow Sahayak to save photos."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.sahayak.app",
+      "permissions": [
+        "CAMERA",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "RECORD_AUDIO",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "SEND_SMS",
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.ACCESS_MEDIA_LOCATION"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow Sahayak to access your camera to record evidence in emergency situations."
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow Sahayak to use your location to send accurate location data in emergencies."
+        }
+      ],
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "Allow Sahayak to access your photos to save emergency recordings.",
+          "savePhotosPermission": "Allow Sahayak to save photos.",
+          "isAccessMediaLocationEnabled": true
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "ad272398-7196-4494-8a86-3561fc4d22bb"
+      }
+    },
+    "owner": "karnawatniraj21"
+  }
+}
