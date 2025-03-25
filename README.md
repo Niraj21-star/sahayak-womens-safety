@@ -13,20 +13,27 @@ A React Native mobile application designed to enhance women's safety through rea
 
 ## Screenshots
 
-### Login/Register Screen
-![Login Screen](./assets/screenshots/login-screen.png)
+### Login Screen
+![Login Screen](./assets/screenshots/login%20screen.jpg)
 
-### Home Screen with SOS Button
-![Home Screen](./assets/screenshots/home-screen.png)
+### Home Screen
+![Home Screen](./assets/screenshots/Home%20screen.jpg)
 
-### Emergency Contacts Screen
-![Emergency Contacts](./assets/screenshots/emergency-contacts.png)
+### Dashboard
+![Dashboard](./assets/screenshots/dashboard.jpg)
 
-### Location Sharing Screen
-![Location Sharing](./assets/screenshots/location-sharing.png)
+### Location Sharing
+![Location Sharing](./assets/screenshots/Location%20sharing%20Started.jpg)
 
-### Emergency Recording Screen
-![Emergency Recording](./assets/screenshots/emergency-recording.png)
+### Safety Tips
+![Safety Tips](./assets/screenshots/Safety%20Tips.jpg)
+
+### Profile
+![Profile](./assets/screenshots/profile.jpg)
+
+### Emergency Features
+![Fake Call](./assets/screenshots/fake%20call%20generated.jpg)
+![Response Call](./assets/screenshots/responsive%20call.jpg)
 
 ## Tech Stack
 
